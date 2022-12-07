@@ -1,0 +1,240 @@
+/* line 1, ../../../Desktop/Project-1/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Philosopher';
+  src: local("Philosopher");
+  src: url(../font/Philosopher-Regular.ttf);
+}
+
+/* line 9, ../../../Desktop/Project-1/src/sass/style.sass */
+html {
+  font-family: 'Roboto!';
+}
+
+@font-face {
+  font-family: 'Roboto!';
+  src: local("Roboto");
+  src: url("../font/Roboto-Regular.eot");
+  src: url("../font/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../font/Roboto-Regular.woff") format("woff"), url("../font/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto!';
+  src: url("../font/Roboto-Bold.eot");
+  src: url("../font/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../font/Roboto-Bold.woff") format("woff"), url("../font/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* line 31, ../../../Desktop/Project-1/src/sass/style.sass */
+body {
+  background-color: #ffe2b0;
+}
+
+/* line 34, ../../../Desktop/Project-1/src/sass/style.sass */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* line 38, ../../../Desktop/Project-1/src/sass/style.sass */
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0px;
+}
+
+/* line 43, ../../../Desktop/Project-1/src/sass/style.sass */
+li {
+  display: inline;
+  margin-right: 100px;
+}
+
+/* line 47, ../../../Desktop/Project-1/src/sass/style.sass */
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* line 53, ../../../Desktop/Project-1/src/sass/style.sass */
+li:last-child {
+  margin-right: 0px;
+}
+
+/* line 56, ../../../Desktop/Project-1/src/sass/style.sass */
+nav {
+  margin-bottom: 20px;
+}
+
+/* line 59, ../../../Desktop/Project-1/src/sass/style.sass */
+.section-about {
+  height: 650px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* line 65, ../../../Desktop/Project-1/src/sass/style.sass */
+.carousel-item {
+  position: relative;
+}
+
+/* line 67, ../../../Desktop/Project-1/src/sass/style.sass */
+.carousel-item img {
+  height: 650px;
+  object-fit: cover;
+}
+
+/* line 71, ../../../Desktop/Project-1/src/sass/style.sass */
+.content {
+  position: absolute;
+  max-width: 600px;
+  left: 13%;
+  bottom: 20%;
+  z-index: 2;
+  color: white;
+}
+
+/* line 79, ../../../Desktop/Project-1/src/sass/style.sass */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.4;
+}
+
+/* line 86, ../../../Desktop/Project-1/src/sass/style.sass */
+.section-about__block {
+  width: 420px;
+  height: 190px;
+  background: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(234, 156, 65, 0.8) 100%);
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  text-align: center;
+  padding-top: 15px;
+}
+
+/* line 96, ../../../Desktop/Project-1/src/sass/style.sass */
+.section-about__border {
+  width: 390px;
+  height: 160px;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 17px 0 0 28px;
+  text-align: left;
+}
+
+/* line 104, ../../../Desktop/Project-1/src/sass/style.sass */
+.section-about__title {
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 9px;
+  font-family: 'Philosopher';
+}
+
+/* line 110, ../../../Desktop/Project-1/src/sass/style.sass */
+.section-about__text {
+  font-size: 12px;
+  margin: 0;
+}
+
+/* line 114, ../../../Desktop/Project-1/src/sass/style.sass */
+.section-description {
+  margin-bottom: 20px;
+}
+
+/* line 117, ../../../Desktop/Project-1/src/sass/style.sass */
+.section-description__icon-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* line 121, ../../../Desktop/Project-1/src/sass/style.sass */
+.section-description__icon-box img {
+  margin-right: 76px;
+}
+
+/* line 124, ../../../Desktop/Project-1/src/sass/style.sass */
+.section-description__icon-box img:last-child {
+  margin-right: 0px;
+}
+
+/* line 127, ../../../Desktop/Project-1/src/sass/style.sass */
+.section-description__title {
+  font-size: 96px;
+  margin: 0pc;
+  text-align: center;
+  font-family: 'Philosopher';
+}
+
+/* line 133, ../../../Desktop/Project-1/src/sass/style.sass */
+.red {
+  color: #f15b40;
+}
+
+/* line 136, ../../../Desktop/Project-1/src/sass/style.sass */
+.section-description__text {
+  font-size: 18px;
+  margin: 0px;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* line 143, ../../../Desktop/Project-1/src/sass/style.sass */
+.section-map {
+  margin-bottom: 20px;
+}
+
+/* line 146, ../../../Desktop/Project-1/src/sass/style.sass */
+.section-map__title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Philosopher';
+}
+
+/* line 152, ../../../Desktop/Project-1/src/sass/style.sass */
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 156, ../../../Desktop/Project-1/src/sass/style.sass */
+hr {
+  border: none;
+  border-top: 1px solid #999999;
+  width: 1024px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* line 163, ../../../Desktop/Project-1/src/sass/style.sass */
+footer {
+  height: 80px;
+}
+
+/* line 166, ../../../Desktop/Project-1/src/sass/style.sass */
+.footer-ul {
+  margin-bottom: 50px;
+}
+
+/* line 169, ../../../Desktop/Project-1/src/sass/style.sass */
+.footer-ending-text {
+  font-size: 12px;
+  margin: 0px;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  height: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
